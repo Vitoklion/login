@@ -1,0 +1,396 @@
+
+.head{
+    width: 100%;
+    margin: 0;
+
+}
+.head-top{
+    padding-right: 0;
+    border-top: solid #5E2612;
+    background-color: #f5f5f5;
+}
+.head-top a{
+    color: #000;
+    text-decoration: none;
+}
+.head-second{
+    padding-right: 0;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    background-color: #fff;
+}
+.head-top-left{
+    padding-top: 0.5em;
+    height: 3em;
+}
+.head-top-left span{
+    padding-left: 1em;
+
+}
+.head-top-right{
+    padding-top: 0.5em;
+    height: 3em;
+    padding-right: 0;
+}
+.head-top-right a{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.head-img img{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.head-img span{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.head-second-search{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+.input-text{
+    float: right;
+    width: 80%;
+    border-bottom: solid #B40404;
+    border-bottom-width: 2px;
+}
+.head-second-search button{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #B40404;
+    border-bottom-width: 3px;
+    float: right;
+    width: 5em;
+    background-color: #55483F;
+    color: #fff;
+}
+.row{
+    width:100%;;
+}
+.steps{
+    text-align: center;
+    padding-bottom: 1%;
+    margin-top:10%;
+    border-bottom: solid;
+    border-bottom-width: 1px;;
+}
+.steps a{
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 2%;
+}
+.steps span{
+    font-size: 20px;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.steps .phone{
+    border-bottom: 3px solid #6E6E6E;
+}
+
+.content-body{
+    margin-top: 3%;
+}
+.phone-form{
+    padding-left: 0;
+}
+
+.phone-form input{
+    border: 1.5px solid #848484;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 3em;
+    width: 50%;
+}
+.phone-form .verify input{
+    border: 1.5px solid #848484;
+    width: 25%;
+    margin-right: 2%;
+}
+.phone-form .verify .ver-img{
+    margin-right: 2%;
+    border-radius: 7px;
+}
+.msg-verify input{
+    border: 1.5px solid #848484;
+    margin-right: 2%;
+    width: 30%;
+}
+.msg-verify button{
+    height: 3em;
+    background-color:gray;
+    color: #000;
+    width: 18%;
+    border: none;
+    border-radius: 10px;
+}
+.phone-form .btn-next button{
+    margin-top: 2%;
+    width: 36%;
+    height: 2.2em;
+    background-color:gray;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+}
+.passwd-form{
+    display: none;
+}
+.passwd-form input{
+    border: 1.5px solid #848484;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 3em;
+    width: 50%;
+}
+.passwd-form .btn-next button{
+    margin-top: 2%;
+    width: 36%;
+    height: 2.2em;
+    background-color:gray;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+}
+.finish-index{
+    display: none;
+    text-align: center;
+}
+.finish-index p{
+    margin-top: 2%;
+    color: gray;
+}
+.finish-index button{
+    margin-top: 5%;
+    width: 35%;
+    background-color: gray;
+    color: #000;
+    border:none;
+    height: 2.5em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;;
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1345px){
+    .input-text{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 596px) and (max-width: 768px){
+    .head-img img{
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    .head-img span{
+        padding: 0;
+        margin-top: 3em;
+    }
+    .input-text{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 596px) {
+    .head-second{
+        padding-left: 0;
+    }
+    .head-img img {
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    .head-img span {
+        padding: 0;
+        margin-top: 3em;
+    }
+
+    .input-text {
+        width: 60%;
+    }
+
+
+
+}
+@media screen and (min-width: 480px) and (max-width: 596px) {
+    .head-second{
+        padding-left: 0;
+    }
+    .head-img img {
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    .head-img span {
+        padding: 0;
+        margin-top: 3em;
+    }
+
+    .input-text {
+        width: 60%;
+    }
+
+
+}
+@media screen and (min-width: 376px) and (max-width: 480px){
+    .passwd-form input{
+        width: 80%;
+    }
+    .steps {
+        padding-right: 0;
+    }
+    .steps span{
+        font-size: 15px;
+        margin-right: 0;
+    }
+    .phone-form input{
+        width: 80%;
+    }
+    .msg-verify input{
+        width: 50%;
+    }
+    .msg-verify button{
+        width: 25%;
+    }
+    .head-second{
+        padding-left: 0;
+    }
+    .head-second-search{
+        padding-top: 3em;
+        padding-left:0;
+        padding-right: 0;
+    }
+    .head-img{
+        padding-right: 0;
+    }
+    .head-img img {
+        padding: 0;
+        margin-top: 3em;
+    }
+
+    .head-img span {
+        padding: 0;
+        margin-top: 3em;
+    }
+
+    .input-text {
+        width: 60%;
+    }
+
+}
+@media screen and (min-width: 360px) and (max-width: 376px){
+    .passwd-form input{
+        width: 80%;
+    }
+    .steps {
+        padding-right: 0;
+    }
+    .steps span{
+        font-size: 15px;
+        margin-right: 0;
+    }
+    .phone-form input{
+        width: 80%;
+    }
+    .msg-verify input{
+        width: 50%;
+    }
+    .msg-verify button{
+        width: 25%;
+    }
+    .head-top-right a{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .input-text{
+        width: 55%;
+    }
+    .head-second{
+        padding-left: 0;
+    }
+    .head-second-search{
+        padding-top: 3em;
+        padding-left:0;
+        padding-right: 0;
+    }
+    .head-img{
+        padding-right: 0;
+    }
+    .head-img img {
+        padding: 0;
+        margin-top: 3em;
+    }
+    .phone-form .msg-verify button{
+        font-size: 10px;
+    }
+
+    .head-img span {
+        padding: 0;
+        margin-top: 3em;
+    }
+
+}
+@media screen and (max-width: 360px){
+    .passwd-form input{
+             width: 80%;
+         }
+    .phone-form input{
+        width: 80%;
+    }
+    .phone-form .msg-verify input{
+        width: 60%;
+    }
+    .phone-form .msg-verify button{
+        width: 30%;
+        font-size: 5px;
+    }
+    .steps {
+        padding-right: 0;
+    }
+    .steps span{
+        font-size: 10px;
+        margin-right: 0;
+    }
+
+    .head-top-right a{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #search-form .but{
+        width: 40%;
+    }
+    .input-text{
+        width: 55%;
+    }
+    .head-second{
+        padding-left: 0;
+    }
+    .head-second-search{
+        padding-top: 3em;
+        padding-left:0;
+        padding-right: 0;
+    }
+    .head-img{
+        padding-right: 0;
+    }
+    .head-img img {
+        padding: 0;
+        margin-top: 3em;
+    }
+
+    .head-img span {
+        padding: 0;
+        margin-top: 3em;
+    }
+
+    .act-login input {
+        width: 100%;
+    }
+    .msg-check-ver input{
+        width: 100%;
+    }
+
+}

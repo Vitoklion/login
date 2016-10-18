@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/line_change.css">
+    <title>Nouns</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="head-top col-md-12 col-xs-12 col-sm-12">
+                <div class="head-top-menu col-md-push-9 col-md-3 col-sm-push-8 col-xs-push-6 col-sm-4 col-xs-6">
+                    <a href="#">登入</a>
+                    |<a href="#" class="order">我的订单</a>
+                </div>
+            </div>
+            <div class="head-second  col-md-12 col-xs-12 col-sm-12">
+                <img src="images/top-image.png">
+            </div>
+            <div class="head-third col-md-12 col-xs-12 col-sm-12">
+                <img src="images/head-third.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="line-load col-md-12 col-xs-12 col-sm-12">
+                <div class="menu-left col-md-push-1 col-md-1 col-sm-push-1 col-sm-3  col-xs-3">
+                    <ul>
+                        <li class="blank"></li>
+                        <li class="wlxl"><span class="glyphicon glyphicon-list-alt"></span> <a href="#">物流线路</a></li>
+                        <li class="xlxz"><span class="glyphicon glyphicon-plus"></span> <a href="#">线路新增</a></li>
+                    </ul>
+                </div>
+
+                <div class="from-right col-md-push-1 col-sm-push-1 col-xs-push-1 col-md-8 col-sm-7 col-xs-8">
+                    <div class="load-alt col-md-11 col-sm-11 col-xs-11">
+                        <div class="load-alt-1 col-md-1 col-xs-6 col-sm-4">
+                            <p>物流线路</p>
+                        </div>
+                        <hr />
+                    </div>
+                    <div class="action col-md-11 col-sm-11 col-xs-11">
+                        <div class="program-check col-md-push-1 col-md-5  col-sm-10 col-xs-10">
+                            <span>项目名称：</span>
+                            <input type="text" >
+                        </div>
+                        <div class="condition col-md-push-1 col-md-3 col-sm-10 col-xs-10">
+                            状态：
+                            <select>
+                                <option>启用</option>
+                                <option>禁用</option>
+                            </select>
+                        </div>
+                        <div class="action-btn col-md-3 col-md-push-1 col-sm-10 col-xs-10">
+                            <button type="submit">查询</button>
+                            <button type="submit">新增</button>
+                        </div>
+                    </div>
+                    <div class="from-contorl col-md-11 col-xs-11 col-sm-11">
+                        <table  border="1" cellspacing="0" class="col-md-12 col-xs-12 col-sm-12">
+                            <tr class="tr-first">
+                                <th>选择</th>
+                                <th>物流起点</th>
+                                <th>起点</th>
+                                <th>终点</th>
+                                <th>价格</th>
+                                <th>排序</th>
+                                <th>操作</th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"></th>
+                                <th>上海一线</th>
+                                <th>上海</th>
+                                <th>苏州</th>
+                                <th>10</th>
+                                <th>2</th>
+                                <th><a href="#">编辑</a> <a href="#">删除</a></th>
+
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"></th>
+                                <th>上海一线</th>
+                                <th>上海</th>
+                                <th>苏州</th>
+                                <th>10</th>
+                                <th>2</th>
+                                <th><a href="#">编辑</a> <a href="#">删除</a></th>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="page-num col-md-11 col-xs-11 col-sm-11">
+                        <span class="text">首页</span><a href="#">1</a><span class="text">尾页</span>
+                        <span class="text">当前第<span class="current">1</span>页 /共<span class="total">1</span>页</span>
+                    </div>
+                </div>
+
+
+                <div class="from-load-add col-md-push-1 col-sm-push-1 col-xs-push-1 col-md-8 col-sm-7 col-xs-8">
+                    <div class="load-alt col-md-11 col-sm-11 col-xs-11">
+                        <div class="load-alt-2 col-md-1 col-xs-6 col-sm-4">
+                            <p>路线新增</p>
+                        </div>
+                        <hr />
+                    </div>
+                    <div class="add-detial col-md-11 col-sm-11 col-xs-12">
+                        <div class="limid  col-md-push-1 col-md-11 col-sm-11 col-xs-12">
+                            <div class="load-name  col-md-5 col-sm-12 col-xs-12">
+                                    <span class="col-md-3 col-sm-4 col-xs-4">线路名称：</span>
+                                    <input type="text" class="col-md-8 col-sm-8 col-xs-8">
+                            </div>
+                        </div>
+                        <div class="limid  col-md-push-1 col-md-11 col-sm-11 col-xs-12">
+                                <div class="load-start  col-md-5 col-sm-12 col-xs-12">
+                                    <span class="col-md-3 col-sm-4 col-xs-4">物流起点：</span>
+                                    <input type="text" class="col-md-8 col-sm-8 col-xs-8">
+                                </div>
+                                <div class="load-end col-md-push-1 col-md-5 col-sm-12  col-xs-12">
+                                    <span class="col-md-3 col-sm-4 col-xs-4">物流终点：</span><input type="text" class="col-md-8 col-sm-8 col-xs-8">
+                                </div>
+                        </div>
+                        <div class="limid  col-md-push-1 col-md-11 col-sm-11 col-xs-12">
+                            <div class="price  col-md-5  col-sm-12 col-xs-12">
+                                <span class="col-md-3 col-sm-4 col-xs-4">价格：</span> <input type="text" class="col-md-8 col-sm-8 col-xs-8">
+                            </div>
+                            <div class="sort col-md-push-1 col-md-5  col-sm-12 col-xs-12">
+                                <span class="col-md-3 col-sm-4 col-xs-4">排序：</span><input type="text" class="col-md-8 col-sm-8 col-xs-8">
+                            </div>
+                        </div>
+                        <div class="save-btn col-md-12 col-sm-12 com-xs-12">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+          <script src="scripts/jquery-3.1.0.min.js"></script>
+          <script src="scripts/main.js"></script>
+      </body>
+      </html>

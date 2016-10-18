@@ -1,0 +1,77 @@
+
+.zhuce{
+    margin-top: 7%;
+}
+.zhuce .same{
+    padding: 2% 2%;
+    margin: 2% 2%;
+    height: 4.5em;
+
+}
+.zhuce  input{
+    padding-left: 5%;
+    border: 1.5px solid #E6E6E6;
+    width: 90%;
+    height: 100%;
+}
+.zhuce .verify{
+    padding: 2% 2%;
+    margin: 2% 2%;
+    height: 4.5em;
+}
+.zhuce .verify input{
+    padding-left: 5%;
+    border: 1.5px solid #E6E6E6;
+    width: 50%;
+    height: 100%;
+}
+.zhuce .verify .ver-img{
+    width: 25%;
+    height: 99%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.zhuce .verify .refresh{
+    width: 8%;
+    height: 80%;
+}
+.zhuce .msg-verify{
+    padding: 2% 2%;
+    margin: 2% 2%;
+    height: 4.5em;
+}
+.zhuce .msg-verify input{
+    padding-left: 5%;
+    border: 1.5px solid #E6E6E6;
+    width: 60%;
+    height: 100%;
+}
+.zhuce .msg-verify button{
+    color: #fff;
+    border:1px solid #a1a1a1;
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    background-color:grey;
+}
+.zhuce .user-change{
+    padding: 2% 2%;
+    margin: 2% 4%;
+    height: 100%;
+    width: 83%;
+}
+.zhuce .click-now{
+    padding: 2% 2%;
+    margin: 2% 2%;
+    height: 4.5em;
+}
+.zhuce .click-now button{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 3em;
+    color: #fff;
+    background-color:grey;
+    border:1px solid #a1a1a1;
+    border-radius: 10px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/lookingPswd.css">
+    <title>ReturnPassword</title>
+</head>
+<body>
+    <div class="row head">
+        <div class="col-md-12 col-xs-12 col-sm-12 head-top">
+            <div class="head-top-left col-md-2 col-sm-3 col-xs-4">
+                <span class="glyphicon glyphicon-map-marker">苏州市</span>
+                <span class="glyphicon glyphicon-chevron-down"></span>
+                <span>|</span>
+            </div>
+            <div class="head-top-right col-md-push-6 col-md-4  col-sm-push-2 col-sm-7 col-xs-11">
+                |<a href="#">登入</a>
+                |<a href="#">免费注册</a>
+                |<a href="#">我的订单</a>
+                |<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>购物车0件</a>
+                |<a href="#">服务商入口</a>
+            </div>
+
+        </div>
+        <div class="col-md-12 col-xs-12 col-sm-12 head-second">
+            <div class="head-img col-md-4 col-sm-6 col-xs-5">
+                <img src="images/top-image.png" class="col-md-8 col-sm-8 col-xs-8">
+                <span class=" col-md-4 col-sm-4 col-xs-4">|找回密码</span>
+            </div>
+            <div class="head-second-search col-md-push-3 col-md-5 col-sm-6 col-xs-7">
+                <div class="form-search col-md-push-2 col-md-10 col-sm-12">
+                    <form id="search-form" method="get">
+                        <button type="submit" class="but"><span>搜索</span></button>
+                        <input type="search" results="s" class="input-text" placeholder="请输入关键字搜索">
+
+                    </form>
+                </div>
+
+            </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="content-head col-md-10 col-sm-10 col-xs-10">
+            <div class="steps col-md-push-3 col-md-7 col-sm-push-3 col-sm-8 col-xs-push-3 col-xs-10">
+                <a href="#" class="phone"><span>输入手机号</span></a>
+                <a href="#" class="new-passwd-border"><span>设置新密码</span></a>
+                <a href="#" class="finish"><span>完成</span></a>
+            </div>
+        </div>
+        <div class="content-body col-md-10 col-sm-10 col-xs-10">
+            <form class="phone-form col-md-push-5 col-md-5 col-sm-push-4 col-sm-10 col-xs-push-4 col-xs-12">
+                <input type="text" placeholder="手机号码">
+                <div class="verify">
+                    <input type="text" placeholder="验证码">
+                    <a href="#"><img src="images/zhuce-ver.png" class="ver-img"></a>
+                    <a href="#"><img src="images/refreh.png" class="refresh"></a>
+                </div>
+                <div class="msg-verify ">
+                    <input type="text" placeholder="短信验证码" >
+                    <button type="submit">点击获取</button>
+                </div>
+                <div class="btn-next">
+                    <button type="submit">下一步</button>
+                </div>
+            </form>
+            <form class="passwd-form col-md-push-5 col-md-5 col-sm-push-4 col-sm-10 col-xs-push-4 col-xs-12">
+                <input type="password" placeholder="输入新密码">
+                <input type="password" placeholder="确认密码">
+                <div class="btn-next">
+                    <button type="submit">下一步</button>
+                </div>
+            </form>
+            <form class="finish-index col-md-push-4 col-md-5 col-sm-push-2 col-sm-10 col-xs-push-2 col-xs-12">
+                <img src="images/finish.png">
+                <h3><strong>恭喜，新密码已经修改成功！</strong></h3>
+                <p>现在用新密码去登入吧！</p>
+                <button type="submit">去登入</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/pswd_main.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>LOGIN</title>
+</head>
+<body>
+
+        <div class="row head">
+            <div class="col-md-12 col-xs-12 col-sm-12 head-top">
+                <div class="head-top-left col-md-2 col-sm-3 col-xs-6">
+                    <span class="glyphicon glyphicon-map-marker">苏州市</span>
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                    <span>|</span>
+                </div>
+                <div class="head-top-right col-md-push-6 col-md-4  col-sm-push-2 col-sm-7 col-xs-11">
+                    |<a href="#">登入</a>
+                    |<a href="#">免费注册</a>
+                    |<a href="#">我的订单</a>
+                    |<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>购物车0件</a>
+                    |<a href="#">服务商入口</a>
+                </div>
+
+            </div>
+            <div class="col-md-12 col-xs-12 col-sm-12 head-second">
+                <div class="head-img col-md-4 col-sm-6 col-xs-5">
+                    <img src="images/top-image.png" class="col-md-8 col-sm-8 col-xs-8">
+                    <span class=" col-md-4 col-sm-4 col-xs-4">欢迎登入</span>
+                </div>
+                <div class="head-second-search col-md-push-3 col-md-5 col-sm-6 col-xs-7">
+                    <div class="form-search col-md-push-2 col-md-10 col-sm-10 col-xs-12">
+                        <form id="search-form" >
+                            <button type="submit" class="but"><span>搜索</span></button>
+                            <input type="search" results="s" class="input-text" placeholder="请输入关键字搜索">
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+            <div class="row body-content">
+                <div class="content col-md-10 col-sm-10 col-xs-10">
+                    <div class="content-img col-md-6 col-sm-8 col-xs-12">
+                        <img src="images/concent-img.png">
+                    </div>
+                    <div class="content-login col-md-push-1 col-md-5 col-sm-7 col-xs-11">
+                        <div class="col-md-6 col-sm-6 col-xs-6 account">
+                            <a href="#"><h3>帐号登入</h3></a>
+                            <hr />
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 message">
+                            <a href="#"><h3>短信登入</h3></a>
+                            <hr />
+                        </div>
+                        <div class="act-login col-md-push-1 col-md-10 col-sm-10 col-xs-12">
+                            <form method="get" action="login.php">
+                                <input type="text" name="phone" placeholder="手机号码/邮箱帐号">
+                                <input type="password" name="password" placeholder="请输入密码">
+                                <div class="check-forget">
+                                    <div class="check col-md-4 col-sm-4 col-xs-6">
+                                        <input type="checkbox"><small>一周内自动登入</small>
+                                    </div>
+                                    <div class="forget col-md-push-2 col-md-4 col-sm-4 col-xs-6">
+                                        <a href="#"><small>忘记密码？</small></a>
+                                    </div>
+                                </div>
+                                <div class="login-btn">
+                                    <button type="submit" value="login"><span>登入</span></button>
+                                </div>
+                                <div class="zhuce">
+                                    <a href="./registration.html">立即注册</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="msg-login col-md-push-1 col-md-10 col-sm-10 col-xs-12">
+                            <input type="text" placeholder="请输入您的手机号码">
+                            <div class="msg-check-send col-md-4 col-sm-7 col-xs-5">
+                                <button type="submit"><small>获取验证码</small></button>
+                            </div>
+                            <div class="msg-check-ver col-md-5 col-sm-9 col-xs-10">
+                                <input type="text" placeholder="请输入验证码">
+                            </div>
+                            <div class="check col-md-8 col-sm-8 col-xs-8">
+                                <input type="checkbox"><small>一周内自动登入</small>
+                            </div>
+                            <div class="login-btn">
+                                <button type="submit"><span>登入</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

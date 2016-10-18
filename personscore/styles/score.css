@@ -1,0 +1,242 @@
+.row{
+    margin-right: 0;
+}
+
+.head-top{
+    height: 2.5em;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.head-top-menu{
+    padding-top: 0.5em;
+}
+.head-top-menu a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.head-second{
+    height: 8em;
+}
+.head-second img{
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.head-third{
+    margin-top: 3%;
+    height: 14em;
+}
+
+.content{
+    height: 60em;
+    background-color: whitesmoke;
+}
+.head-third img{
+    width:100%;
+    height: 100%;
+}
+.menu-left{
+    margin-top: 5%;
+    height: 25em;
+}
+.from-right{
+    background-color: #fff;
+    padding-right: 0;
+    margin-top: 5%;
+    height: 45%;
+}
+.menu-left ul{
+    height: 100%;
+}
+.menu-left ul .avatar{
+    height: 30%;
+}
+.menu-left ul li{
+    background-color: #fff;
+    list-style: none;
+    text-align: center;
+    height: 15%;
+    border-bottom: solid 1px #6E6E6E;
+}
+.menu-left ul li span{
+    margin-right: 4%;
+    margin-top: 8%;
+}
+.menu-left ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.from-right .myscores p{
+    margin-top: 10px;
+}
+.from-right .use-scores {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 1.5% 2%;
+    padding: 1.5% 2%;
+    height: 5em;
+    background-color: #E6E6E6;
+    border-radius: 8px;
+}
+.all{
+    border-bottom: 3px solid #6E6E6E;
+    padding-bottom:2%;
+    font-weight:bold;
+}
+.record {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.record span{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.scores-table-all .table-first{
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.scores-table-all{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.scores-table-all table tr th{
+    height: 3em;
+    text-align: center;
+}
+.scores-table-all .table-first{
+    border: none;
+    background-color: whitesmoke;
+}
+.scores-table-income{
+    display: none;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.scores-table-income .table-first{
+    margin-top: 2%;
+    margin-right: 4%;
+}
+.scores-table-income table tr th{
+    height: 3em;
+    text-align: center;
+}
+.scores-table-income .table-first{
+    border: none;
+    background-color: whitesmoke;
+}
+.scores-table-output{
+    display: none;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.scores-table-output .table-first{
+    margin-top: 2%;
+    margin-right: 4%;
+}
+.scores-table-output table tr th{
+    height: 3em;
+    text-align: center;
+}
+.scores-table-output .table-first{
+    border: none;
+    background-color: whitesmoke;
+}
+.bottom{
+    margin-top: 5%;
+}
+.bottom-statement{
+    margin-top: 3%;
+}
+
+.bottom .bottom-menu a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.bottom-menu span{
+    padding-left: 8%;
+}
+
+.bottom .bottom-menu hr{
+    border-width: 2.5px;
+    color: whitesmoke;
+}
+@media only screen and (min-width: 376px) and (max-width: 768px){
+    .from-right {
+        height: 40%;
+    }
+    .menu-left ul{
+        padding-left: 0;
+    }
+    .use-scores{
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 376px){
+    .myscores-1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .head-top-menu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+   .from-right {
+       height: 50%;
+   }
+    .menu-left ul{
+        padding-left: 0;
+    }
+    .record {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bottom-menu span{
+        padding-left: 25%;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 320px){
+    .myscores-1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .menu-left{
+        padding-left: 0;
+
+    }
+    .head-top-menu{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .head-top-menu .order{
+        margin-right: 0;
+    }
+    .from-right {
+        height: 50%;
+    }
+    .menu-left ul{
+        padding-left: 0;
+    }
+    .record {
+        padding-left: 0;
+        padding-right: 0;
+    }
+     .record span{
+        font-size: 10px;
+    }
+    .scores-table-all .table-first{
+        margin-right: 0;
+        width:100%;
+    }
+
+    .bottom-menu span{
+        padding-left: 16%;
+    }
+}

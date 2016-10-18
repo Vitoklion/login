@@ -1,0 +1,651 @@
+.head-top{
+    height: 2.5em;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.container{
+    width: 100%;
+}
+.head-top-menu{
+    padding-top: 0.5em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.head-top-menu .order{
+    margin-right: 0;
+}
+.head-top-menu a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.head-second{
+    height: 8em;
+}
+.head-second img{
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.head-third{
+    background-color: whitesmoke;
+    margin-top: 3%;
+    height: 14em;
+    padding-right: 0;
+    padding-left: 0;
+}
+.head-third img{
+    margin: 1.5% 1.5%;
+    width:97%;
+    height: 80%;
+}
+hr{
+    margin-top: 25px;
+}
+.line-load{
+    height: 40em;
+    paddingn-top: 1%;
+    background-color: whitesmoke;
+    width: 100%;
+    padding-right: 0;
+}
+.menu-left{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5%;
+    background-color: #fff;
+    height: 80%;
+}
+.menu-left ul{
+    padding-left: 0;
+}
+.menu-left ul .blank{
+    height: 30%;
+}
+.menu-left ul li{
+    background-color: #fff;
+    list-style: none;
+    text-align: center;
+    height: 15%;
+    border-bottom: solid 1px #D8D8D8;
+    padding-bottom: 4%;
+}
+.menu-left ul li span{
+    margin-right: 4%;
+    margin-top: 8%;
+}
+.menu-left ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.from-right{
+    background-color: #fff;
+    margin-left: 1%;
+    height: 80%;
+
+}
+.from-right .load-alt-1{
+    padding: 0;
+}
+.from-right .load-alt .action .program-check span{
+    font-size: 10px;
+}
+.from-right .load-alt-1 p{
+    margin-top: 15% ;
+    font-size: 20px;
+}
+
+
+.from-right .program-check input{
+    width: 50%;
+}
+.from-contorl .action{
+    margin-bottom: 4%;
+}
+.from-right .action .condition select{
+    width: 60%;
+}
+.from-right .action .action-btn button{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 8px;
+    border: 1px solid #2E2E2E;
+    background-color: #fff;
+}
+.from-contorl{
+    height: 20%;
+    padding-left: 2%;
+}
+.from-right  .action{
+    margin-bottom: 4%;
+}
+.from-right .from-contorl table{
+    padding-left: 3%;
+}
+.from-right .from-contorl table .tr-first{
+    background-color: whitesmoke;
+}
+.from-right .from-contorl table tr th{
+    height: 2.5em;
+    text-align: center;
+}
+.from-right .from-contorl table tr a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.page-num{
+    margin-top: 3%;
+}
+.page-num .text{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.from-load-add{
+    display: none;
+    background-color: #fff;
+    margin-left: 1%;
+    height: 80%;
+}
+.from-load-add .load-alt-2{
+    padding: 0;
+}
+.from-load-add .load-alt-2 p{
+    margin-top: 15% ;
+    font-size: 20px;
+}
+.from-load-add .add-detial span{
+    font-size: 16px;
+}
+.from-load-add .add-detial .limid{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.from-load-add .add-detial .limid span{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.from-load-add .add-detial .load-name{
+    padding-top: 1%;
+    height: 100%;
+}
+.from-load-add .add-detial .load-start{
+    padding-top: 1%;
+    height: 100%;
+}
+.from-load-add .add-detial  .load-end{
+    padding-top: 1%;
+    height: 100%;
+}
+
+.from-load-add .add-detial .price{
+    padding-top: 1%;
+    height: 100%;
+}
+.from-load-add .add-detial .sort {
+    padding-top: 1%;
+    height: 100%;
+}
+
+.from-load-add .add-detial input{
+    height: 80%;
+    margin-left: 3%;
+    width: 70%;
+}
+.save-btn{
+    height: 2em;
+    text-align: center;
+    margin-top: 5%;
+}
+.save-btn button{
+    width: 15%;
+    height: 3em;
+    border: 1px solid ;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1685px){
+    .add-detial .limid div{
+        padding-left: 0;
+    }
+
+
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .from-load-add .add-detial .limid div{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .from-load-add .add-detial .limid input{
+        border: 1px solid ;
+        width: 50%;
+    }
+    .save-btn{
+        height: 10%;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .save-btn button{
+        width: 25%;
+        height: 3em;
+        border: 1px solid ;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    hr{
+        margin-top: 30px;
+    }
+
+    .from-right .action .program-check{
+        margin-top: 3%;
+        margin-bottom: 3%;
+
+    }
+    .from-right .action .program-check input{
+        border-left: 0.5px solid #000;
+    }
+    .from-right .action .condition{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .action .action-btn{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .from-contorl{
+        height: 8em;
+    }
+    .add-detial .include{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .add-detial  .include input{
+        height: 60%;
+        width: 50%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .from-load-add .add-detial .limid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .add-detial .limid div{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .from-load-add .add-detial .limid input{
+        border: 1px solid ;
+        width: 45%;
+    }
+    .from-load-add .add-detial span{
+        font-size: 12px;
+    }
+
+    .save-btn{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .save-btn button{
+        margin-top: 8%;
+        width: 35%;
+        height: 2em;
+        border: 1px solid ;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+    .from-right .action .program-check{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .action .program-check input{
+        border :0.8px solid #000;
+        width: 50%;
+    }
+    .from-right .action .condition{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0;
+    }
+    .from-right .action .action-btn{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .from-contorl{
+        height: 10em;
+    }
+    .page-num{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 480px){
+    .from-load-add .add-detial .limid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .add-detial .limid div{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .from-load-add .add-detial .limid input{
+        border: 1px solid ;
+        width: 45%;
+    }
+    .from-load-add .add-detial span{
+        font-size: 12px;
+    }
+
+    .save-btn{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .save-btn button{
+        margin-top: 8%;
+        width: 35%;
+        height: 2em;
+        border: 1px solid ;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+    .from-right .action .program-check{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .action .program-check input{
+        border :0.8px solid #000;
+        width: 50%;
+    }
+    .from-right .action .condition{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0;
+    }
+    .from-right .action .action-btn{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .from-contorl{
+        height: 10em;
+    }
+    .page-num{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 400px){
+    from-load-add .add-detial{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .load-alt-2 p{
+        margin-top: 15% ;
+        font-size: 15px;
+    }
+    .from-load-add .add-detial .limid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .add-detial .limid div{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .from-load-add .add-detial .limid input{
+        border: 1px solid ;
+        width: 45%;
+    }
+    .from-load-add .add-detial span{
+        font-size: 12px;
+    }
+
+    .save-btn{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .save-btn button{
+        margin-top: 8%;
+        width: 35%;
+        height: 2em;
+        border: 1px solid ;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+    .head-top-menu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .load-alt .load-alt-1 p{
+        font-size: 15px;
+    }
+    hr{
+        margin-top: 20px;
+    }
+    .action{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-right .action .program-check{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .action .program-check input{
+        border :0.8px solid #000;
+        width: 50%;
+    }
+    .from-right .action .condition{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0;
+    }
+    .from-right .action .action-btn{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .from-contorl{
+        height: 10em;
+    }
+    .page-num{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 321px) and (max-width:375px) {
+    .from-load-add .add-detial{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .load-alt-2 p{
+        margin-top: 15% ;
+        font-size: 15px;
+    }
+    .from-load-add .add-detial .limid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .add-detial .limid div{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .from-load-add .add-detial .limid input{
+        border: 1px solid ;
+        width: 45%;
+    }
+    .from-load-add .add-detial span{
+        font-size: 12px;
+    }
+
+    .save-btn{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .save-btn button{
+        margin-top: 8%;
+        width: 35%;
+        height: 2em;
+        border: 1px solid ;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+    .head-top-menu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .load-alt .load-alt-1 p{
+        font-size: 15px;
+    }
+    hr{
+        margin-top: 20px;
+    }
+    .action{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-right .action .program-check{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .action .program-check input{
+        border :0.8px solid #000;
+        width: 50%;
+    }
+    .from-right .action .condition{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0;
+    }
+    .from-right .action .action-btn{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .from-contorl{
+        height: 10em;
+    }
+    .page-num{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .from-load-add{
+        padding-right: 0;
+    }
+    .from-load-add .add-detial{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .load-alt-2 p{
+        margin-top: 15% ;
+        font-size: 15px;
+    }
+    .from-load-add .add-detial .limid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-load-add .add-detial .limid div{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .from-load-add .add-detial .limid input{
+        border: 1px solid ;
+        width: 45%;
+    }
+    .from-load-add .add-detial span{
+        font-size: 10px;
+    }
+
+    .save-btn{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .save-btn button{
+        margin-top: 8%;
+        width: 35%;
+        height: 2em;
+        border: 1px solid ;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .line-load .menu-left{
+        padding-top: 10%;
+    }
+
+    .line-load .menu-left ul li{
+        font-size: 10px;
+    }
+    .head-top-menu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .load-alt .load-alt-1 p{
+        font-size: 15px;
+    }
+    hr{
+        margin-top: 20px;
+    }
+    .action{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .from-right{
+        padding: 0;
+    }
+    .from-right .action .program-check{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .action .program-check input{
+        border :0.8px solid #000;
+        width: 50%;
+    }
+    .from-right .action .condition{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0;
+    }
+    .from-right .action .action-btn{
+        padding: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .from-right .from-contorl{
+        height: 10em;
+    }
+    .page-num{
+        padding: 0;
+    }
+}
